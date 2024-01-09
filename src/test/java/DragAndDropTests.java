@@ -14,7 +14,7 @@ public class DragAndDropTests {
     }
 
         @Test
-        void PlainDragAndDrop () {
+        void plainDragAndDrop () {
             open("https://the-internet.herokuapp.com/drag_and_drop");
             $("#column-a").shouldHave(text("A"));
             $("#column-b").shouldHave(text("B"));
@@ -24,7 +24,7 @@ public class DragAndDropTests {
         }
 
             @Test
-            void ActionsDragAndDrop () {
+            void actionsDragAndDrop () {
                 open("https://the-internet.herokuapp.com/drag_and_drop");
                 $("#column-a").shouldHave(text("A"));
                 $("#column-b").shouldHave(text("B"));
